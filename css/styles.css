@@ -1,0 +1,26 @@
+button {
+  width: 200px;
+  height: 150px;
+  display: inline-block;
+  color: white;
+  margin-left: 100px;
+  text-decoration: none;
+  padding: 0.5em 2em;
+  outline: none;
+  border-width: 2px 0;
+  border-style: solid none;
+  border-color: #fdbe33 #000 #d77206;
+  border-radius: 6px;
+  background: linear-gradient(#f3ae0f, #e38916) #e38916;
+  transition: 0.2s;
+  position: relative;
+  left: 35%;
+  margin-top: 100px;
+  transform: translate(-50%, 0);
+}
+
+button:hover {
+  border: 3px dotted #794d1e;
+  color: #99b80f;
+  background: rgba(0, 0, 0, 0);
+}
